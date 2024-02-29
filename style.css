@@ -3,40 +3,56 @@ body{
     background-image: url(images/Bkg.png);
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
+    background-repeat: repeat;
     
 }
 .menu {
-  background-color: #333;
+  background-color: #101010;
   overflow: hidden;
+  height: 80px;
 }
 
 .menu h1 {
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 10px 100px 10px;
   margin: 0;
+  
 }
 
 .menu a {
-  float: left;
+  float: right;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 28px 45px 30px 40px;
   text-decoration: none;
+  height: 80px;
 }
 
 .menu a:hover {
-  background-color: #555;
+  background-color: #11495A;
 }
 
 .active {
-  background-color: #555;
+  background-color: #18272B;
 }
 
 .perfilphoto{
+  display: block;
+  padding: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
+}
 
-  position: relative;
-  top: 47px;
-  left: 180px;
+.title{
+
+font-size: 24px;
+padding: 0px 0px 50px 100px;
+font-family: "Inter", sans-serif;
+color: white;
+
+
 }
