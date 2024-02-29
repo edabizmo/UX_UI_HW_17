@@ -130,7 +130,7 @@ color: white;
         .skills{
       
           font-size: 64px;
-          font-family: "Inter", sans-serif;
+          font-family: "Inter", sans-serif, bold;
           margin: auto;
           width: 50%;
           padding: 0px 0px 0px 0px;
@@ -153,6 +153,7 @@ color: white;
             top: 40px;
             color: white;
             text-align: center;
+            font-family: "Inter", sans-serif;
           }
 
           .row{
@@ -160,3 +161,33 @@ color: white;
             text-align: center;
             
           }
+
+          .projecttitle{
+
+            top: 40px;
+            color: white;
+            text-align: center;
+            font-size: 26px;
+            font-family: "Inter", sans-serif, Bold;
+            font-weight: bolder;
+          }
+
+          .demo{
+
+            top: 40px;
+            color: white;
+            text-align: center;
+            font-size: 26px;
+            font-family: "Inter", sans-serif, Bold;
+            font-weight: bolder;
+          }
+
+          footer {
+            background-color: #fff;
+            color: #000;
+            text-align: center;
+            padding: 20px 15px 15px 15px;
+            position: relative;
+            bottom: -5;
+            width: 100%;
+        }

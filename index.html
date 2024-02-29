@@ -22,10 +22,10 @@
 <body>
 
 <div class="menu">
-    <a href="#resume">Resume</a>
-    <a href="#about">About Me</a>
-    <a href="#projects">Projects</a>
-    <a class="active" href="#home">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="aboutme.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a class="active" href="index.html">Home</a>
     <div class="title">
       <p> Edgar Izunza Portfolio <p>
 </div>
@@ -83,15 +83,65 @@
   </div>
 </div>
 
-  <br><br><br><br>
+  <br><br>
 
   <div>
     <p class="my">My </p> <p class="skills">Recent Projects</p>
   </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br>
 
-
+  <div class="container2">
+    <div class="row">
+      <div class="col-sm">
+        <img src="images/travel.png" class="travelicon">
+        <div class="projecttitle" style="align-self: center">
+        <br>
+        <p>Travel App</p>
+        <button onclick="myFunction1()">View case of Study</button>
+        <p id="demo" target="_blank"></p>
+        <script>
+        function myFunction1() {
+        document.getElementById("demo").innerHTML = "Thanks for Watching";
+        }
+        </script>
+        </div>
+      </div>
+      <div class="col-sm">
+        <img src="images/urara.png" class="uraracon">
+        <div class="projecttitle">
+          <br>
+          <p>Urara - Non Profit</p>
+          <button onclick="myFunction2()">View case of study </button>
+          <p id="demo1" target="_blank"></p>
+          <script>
+          function myFunction2() {
+          document.getElementById("demo1").innerHTML = "Thanks for Watching";
+          }
+          </script>
+          </div>
+      </div>
+      <div class="col-sm">
+        <img src="images/government.png" class="govicon">
+        <div class="projecttitle">
+          <br>
+          <p>Government</p>
+          <button onclick="myFunction3()">View case of study</button>
+          <p id="demo2"target="_blank"></p>
+          <script>
+          function myFunction3() {
+          document.getElementById("demo2").innerHTML = "Thanks for Watching";
+          }
+          </script>
+          </div>
+      </div>
+    </div>
+  </div>
+<br><br><br><br>
 </body>
+
+<footer>
+  <p>&copy; Edgar Izunza / edabizmo@gmail.com / (385)417-7021 / 2024  All rights reserved </p>
+</footer>
 
 </html>
